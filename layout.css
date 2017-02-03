@@ -31,3 +31,32 @@ body.page p {
  }
 
 /*end*/
+
+
+/*gnav*/
+
+#gnavi {
+    border-bottom : 1px solid #cccccc;
+}
+#gnavi-inner {
+    padding: 0;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+#gnavi-inner ul {
+    margin-left : 0;
+    margin-bottom : 0;
+    padding : 0 20px;
+}
+#gnavi-inner ul li {
+    float : left;
+    list-style-type : none;
+    padding : 0 15px 3px;
+    border-left : 1px solid #cccccc;
+    font-size : 125%;
+}
+#gnavi-inner ul li.last {
+    border-right : 1px  solid #cccccc;
+}
+/*end gnav*/
