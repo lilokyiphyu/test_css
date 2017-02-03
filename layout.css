@@ -1,3 +1,4 @@
+
 body {
     font-family: serif;
 }
@@ -13,3 +14,20 @@ body.page {
 body.page p {
     color: yellow;
 }
+
+
+/*pagination*/
+
+.page-navigation { 
+     line-height : 2em; 
+ } 
+ .prev_page_link, .next_page_link, .page_no, .cur_page_no { 
+     padding : 2px 4px; 
+     border : 1px solid #cccccc; 
+ } 
+ .cur_page_no { 
+     background-color : #666666; 
+     color : #ffffff; 
+ }
+
+/*end*/
